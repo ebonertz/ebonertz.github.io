@@ -1,0 +1,144 @@
+  /*New Game Styling*/
+
+  .new-game-container {
+    text-align:center;
+  }
+
+  body {
+    background: #FA5105;
+    min-width: 1080px;
+    width: auto;
+  }
+
+  .main-header {
+    font-family:Orbitron, sans-serif;
+    font-size: 4em;
+    line-height: 1.5em;
+    color:#EEEEEE;
+    padding: .7em;
+    text-align: center;
+  }
+
+  .main-subheader {
+      font-family:Orbitron, sans-serif;
+      font-size: 2.5em;
+      line-height: 1.2em;
+      color:#EEEEEE;
+      padding: 1em;
+      text-align: center;
+  }
+
+    .menu-header {
+      text-transform:uppercase;
+      font-size: 1.5em;
+      margin-bottom: 1em;
+      line-height: 1.2em;
+      display:block;
+      color:#EEEEEE;
+      font-family:Helvetica, sans-serif;
+
+    }
+
+    .menu-option {
+      font-family: helvetica;
+      color: ##000014;
+      text-decoration: none;
+      font-size: 1.2em;
+      display:block;
+      margin-left: 25em;
+      margin-right: 25em;
+      margin-top: 20px
+      margin-bottom:20px;
+      padding-left:30px;
+      padding-right: 30px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      border:2px solid white;
+    }
+
+    .menu-option-panthers{
+        transform: perspective(200px) rotateY(-15deg)
+      }
+    .menu-option-broncos {
+      transform: perspective(200px) rotateY(15deg);
+    }
+
+  .menu-option {
+    color: #EEEEEE;
+  }
+    .menu-option:hover {
+      background: white;
+      text-transform: black;
+      color :#009ad9;
+    }
+
+    /* Gameplay*/
+    .game-container  {
+      margin: .5em
+    }
+
+    .game-detail {
+      color:#EEEEEE;
+      font-family: helvetica;
+      display: inline-block;
+      margin: 1em;
+
+    }
+
+    .game-detail-health {
+      float: left;
+      margin-left: 3em
+    }
+
+    .game-detail-time {
+      float: right;
+      margin-right: 3em;
+      }
+
+  .game-board {
+      margin-top: 4em;
+  }
+
+    .game-line {
+      margin-top: .1em;
+      display:block;
+      text-align: center;
+    }
+
+    .box {
+      display: inline-block;
+
+    }
+
+  .card {
+    width: 115px;
+    height: 115px;
+    background: white;
+    border-radius: 1em;
+    display: inline-block;
+    transition: background 1s,
+    -webkit-transform 1s;
+    box-sizing: border-box;
+    color: white;
+    padding: 2em;
+    font-family:helvetica;
+    -webkit-transform: rotateY(180deg);
+    text-shadow: left;
+    margin: .1em;
+  }
+
+
+
+  /*when the checkbox is checked then*/
+
+  input:checked +.card{
+        background:black;
+        -webkit-transform: rotateY(0deg);
+  }
+
+  input {
+    width: 300px;
+    height: 300px;
+    display:none;
+    text-align: center;
+}
