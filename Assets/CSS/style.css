@@ -1,0 +1,100 @@
+    /* Gameplay*/
+
+  body {
+    background: #7AAED7;
+    min-width: 1080px;
+    width: auto;
+  }
+
+  .main-header {
+    font-family:Orbitron, sans-serif;
+    font-size: 4em;
+    line-height: 1.5em;
+    color:#EEEEEE;
+    padding: .7em;
+    text-align: center;
+  }
+
+
+
+    .game-container  {
+      margin: 1em;
+    max-width: 1080px;
+      min-width:300px;
+    }
+
+    .game-detail {
+      color:#EEEEEE;
+      font-family: helvetica;
+      display: inline-block;
+      margin: 1em;
+
+    }
+
+    .game-detail-health .fouls{
+      float: left;
+      margin-left: 5em;
+      display:inline-block;
+    }
+
+    .timer {
+      float: right;
+      margin-right: 10em;
+      position: relative;
+      }
+
+  .game-board {
+      margin-left: 5rem;
+      margin-right: 5rem;
+      margin-top: 5em;
+      margin-bottom: 5em;
+      text-align: center;
+      display: block;
+      width: 80%;
+
+
+  }
+
+
+    .box {
+      display: inline-block;
+      text-align: center;
+    }
+
+    .name {
+      /*display:none;*/
+      opacity: 0;
+      /*padding:2em;*/
+    }
+
+  .card {
+    width: 8rem;
+    height: 8rem;
+    background: white;
+    border-radius: 1em;
+    display: inline-block;
+    box-sizing: border-box;
+    color: white;
+    padding: 2em;
+    font-family:helvetica;
+    transition: background .5s, -webkit-transform .2s;
+    -webkit-transform: rotateY(180deg);
+    margin: .2em;
+
+  }
+
+
+.flipped {
+    -webkit-transform: rotateY(0deg);
+    background: #16284C;
+    opacity: 1;
+    position: relative;
+    padding:2em;
+  }
+
+
+  input {
+    width: 300px;
+    height: 300px;
+    display:none;
+}
