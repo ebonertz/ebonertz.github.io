@@ -26,7 +26,7 @@ $(document).ready(function() {
             $(this).children().removeClass('name');
             flippedNames.push($(this).children().attr('class'));
             flippedCards.push($(this));
-            // firstFlip=false;
+            firstFlip=false;
         }
         else {
             fouls--;
