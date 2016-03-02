@@ -1,4 +1,3 @@
-
 $(document).ready(function() {
 
 // Shotclock 30 seconds countdown
@@ -56,4 +55,6 @@ $(document).ready(function() {
             }, 1000);
 
             firstFlip = true;
-        }
+
+        }; //This closes the else statement
+    }); //This closes the click function
